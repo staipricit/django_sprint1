@@ -2,7 +2,7 @@ from django import get_version
 
 
 def test_django_version():
-    min_ver = '3.2.25'
+    min_ver = '4.2.16'
     used_ver = get_version()
     assert used_ver >= min_ver, (
         f'В проекте должна быть установлена версия Django '
